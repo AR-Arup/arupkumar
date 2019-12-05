@@ -1012,6 +1012,58 @@ header .navbar-expand-md .navbar-nav .nav-link {
   color: red;
 }
 
+/*  ############################### 
+      ?  ((Animate banner part))
+    ###############################  */
+#home-heading-1 {
+  -webkit-animation-direction: 1.5s;
+          animation-direction: 1.5s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+#home-heading-2 {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+#home-text {
+  -webkit-animation-direction: 1s;
+          animation-direction: 1s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+#home-btn {
+  -webkit-animation-direction: 1.5s;
+          animation-direction: 1.5s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+#arrow-down i {
+  -webkit-animation-direction: 1.5s;
+          animation-direction: 1.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#my-skills {
+  -webkit-animation-direction: 1s;
+          animation-direction: 1s;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+#mvp {
+  -webkit-animation-direction: .5s;
+          animation-direction: .5s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
 @media (max-width: 767px) {
   #home #home-heading-1 {
     font-size: 35px;

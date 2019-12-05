@@ -88,3 +88,14 @@ $(function () {
    $(document).ready(function (){
     var mixer = mixitup('.portfolio-gallery');
    });
+
+
+
+   /*  ###################
+        ? ANIMATE WOW JS
+        ##################
+   */
+
+   $(document).ready(function (){
+    new WOW().init();
+   });

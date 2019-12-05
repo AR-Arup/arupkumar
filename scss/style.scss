@@ -1172,6 +1172,49 @@ header {
 
 
 
+/*  ############################### 
+      ?  ((Animate banner part))
+    ###############################  */
+
+    #home-heading-1 {
+      animation-direction: 1.5s;
+      animation-delay: .6s;
+    }
+
+    #home-heading-2 {
+      animation-duration: 1s;
+      animation-delay: .5s
+    }
+
+    #home-text {
+      animation-direction: 1s;
+      animation-delay: .5s;
+    }
+    #home-btn {
+      animation-direction: 1.5s;
+      animation-delay: .6s;
+    }
+
+    #arrow-down {
+      i {
+        animation-direction: 1.5s;
+        animation-delay: 4s;
+      }
+    }
+
+    #my-skills {
+      animation-direction: 1s;
+      animation-delay: .1s;
+    }
+
+    #mvp {
+      animation-direction: .5s;
+      animation-delay: .4s;
+    }
+
+
+
+
 
 
 
