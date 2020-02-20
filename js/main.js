@@ -1,1 +1,28 @@
-$(window).on("load",function(){$("#status").fadeOut(),$("#preloader").delay(350).fadeOut(500)}),$("document").ready(function(){$("#team-members").owlCarousel({items:2,autoplay:!0,smartSpeed:400,loop:!0,autoplayHoverPause:!0,nav:!0,dots:!1,navText:['<i class="fas fa-angle-left fa-2x"></i>','<i class="fas fa-angle-right fa-2x"></i>']})}),$("document").ready(function(){$("#clients-list").owlCarousel({items:6,autoplay:!0,smartSpeed:400,loop:!0,autoplayHoverPause:!0,nav:!0,dots:!1,navText:['<i class="fas fa-angle-left fa-2x"></i>','<i class="fas fa-angle-right fa-2x"></i>']})}),$(function(){function a(){$(window).scrollTop()>50?($("nav").addClass("white-nav-top"),$(".navbar-brand img").attr("src","img/logo/logo-dark.png"),$("#back-to-top").fadeIn()):($("nav").removeClass("white-nav-top"),$(".navbar-brand img").attr("src","img/logo/logo.png"),$("#back-to-top").fadeOut())}a(),$(window).scroll(function(){a()})}),$(document).ready(function(){mixitup(".portfolio-gallery")}),$(document).ready(function(){(new WOW).init()});
+/*  PRELOADER */
+$(window).on("load", function () {
+    $("#status").fadeOut(), $("#preloader").delay(350).fadeOut(500)
+});
+
+/* NAV SCROLL DOWN */
+$(function () {
+    function a() {
+        $(window).scrollTop() > 50 ? ($("nav").addClass("white-nav-top"), $(".navbar-brand img").attr("src", "img/logo/logo-dark.png"), $("#back-to-top").fadeIn()) : ($("nav").removeClass("white-nav-top"), $(".navbar-brand img").attr("src", "img/logo/logo.png"), $("#back-to-top").fadeOut())
+    }
+    a(), $(window).scroll(function () {
+        a()
+    })
+});
+
+/* ACCORDION */
+$(document).ready(function(){
+    $('.acc').accordion();
+});
+
+ // MIXITUP JS
+$(document).ready(function(){
+    var mixer = mixitup('.portfolio-gallery');
+});
+
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
